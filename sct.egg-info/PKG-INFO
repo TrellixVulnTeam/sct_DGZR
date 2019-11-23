@@ -2,7 +2,7 @@ Metadata-Version: 1.0
 Name: sct
 Version: 0.1
 Summary: sct package for crypto tools
-Home-page: https://github.com/ShankarCodes
+Home-page: https://github.com/ShankarCodes/sct
 Author: shankar
 Author-email: mailstoshankar@gmail.com
 License: MIT
