@@ -8,9 +8,9 @@ from .keys import Key
 
 class EllipticCurve:
     
-    def __init__(self,curve="SECP521R1",chash="SHA512"):
+    def __init__(self,curve="SECP521R1",hash="SHA512"):
         self.__cur=eval("ec.{}()".format(curve))
-        self.__chosen_hash=eval("hashes.{}()".format(chash))
+        self.__chosen_hash=eval("hashes.{}()".format(hash))
         self.__pvt=None
         self.__pub=None
         self.__hasher = hashes.Hash(self.__chosen_hash, default_backend())
